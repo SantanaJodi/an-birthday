@@ -168,9 +168,13 @@ $(document).ready(function() {
         opacity: '1'
       }, 2000, 'linear')
 
+      $('#fire').animate({
+        opacity: '1'
+      }, 2000, 'linear')
+
       setTimeout(function(){
            window.location = goTo;
-      }, 3000);
+      }, 4000);
       return;
     } else {
       $('.notMword').html('The word is not magical');

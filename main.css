@@ -152,6 +152,16 @@ input {
   color: #ec1f7f;
 }
 
+#fire {
+  width: 60px;
+  margin-bottom: -90px;
+  opacity: 0
+}
+
+#candle {
+  width: 200px;
+}
+
 .flex {
   height: 100vh;
   display: flex;
