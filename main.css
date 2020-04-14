@@ -77,9 +77,30 @@ canvas {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   z-index: 0;
   position: absolute;
   /* border: 1px solid red; */
+}
+
+h1 {
+  text-align: center;
+  line-height: 32px;
+  width: 70%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  /* border: 1px solid red; */
+}
+
+p {
+  width: 80%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 10px;
 }
 
 form {
@@ -92,7 +113,6 @@ input {
   margin: 20px;
   width: 60%;
   font-size: 24px;
-  font-weight: bold;
   text-align: center;
   border: none;
   border-bottom: .5px solid #2E4053;
@@ -109,10 +129,6 @@ input {
   border-radius: 8px;
   outline: none;
 }
-
-/* .btn:hover {
-  background: linear-gradient(90deg, #d50fff, #44199a);
-} */
 
 .btn .btn-ripple {
   background: rgba(255, 255, 255, 0.3);
@@ -131,9 +147,22 @@ input {
   }
 }
 
-/* h1 {
+.notMword {
+  margin-top: 18px;
+  color: #ec1f7f;
+}
+
+.flex {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-} */
+}
+
+.whitebg {
+  z-index: 999;
+  opacity: 0;
+  width: 0px;
+  height: 0px;
+  background-color: #fff;
+}
