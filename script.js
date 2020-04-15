@@ -156,7 +156,7 @@ $(document).ready(function() {
   $('.btn').click(function (e) {
     var mwordVal = document.getElementById('mword').value
 
-    if (mwordVal == 'Test'){
+    if (mwordVal == 'ibringthelight'){
       // Present transition
       e.preventDefault();
       var goTo = this.getAttribute("href");
